@@ -1,0 +1,29 @@
+{
+  "name": "ra-italian",
+  "version": "2.5.0",
+  "description": "Italian translations for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefsava/ra-italian.git"
+  },
+  "author": "Stefano Savanelli",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "react",
+    "react-admin",
+    "translation"
+  ],
+  "author": "Stefano Savanelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefsava/ra-italian/issues"
+  },
+  "homepage": "https://github.com/stefsava/ra-italian#readme",
+  "devDependencies": {
+    "lerna": "^3.8.1"
+  }
+}
+
+
