@@ -8,11 +8,10 @@
     "translation"
   ],
   "author": "Stefano Savanelli <stefano@savanelli.it>",
-  "homepage": "https://github.com/stefsava/ra-italian/tree/master/packages/ra-language-italian#readme",
+  "homepage": "https://github.com/stefsava/ra-italian#readme",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stefsava/ra-italian/issues"
   },
-  "homepage": "https://github.com/stefsava/ra-italian#readme",
   "main": "index.js"
 }
