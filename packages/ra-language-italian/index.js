@@ -15,7 +15,7 @@ module.exports = {
       list: 'Elenco',
       refresh: 'Aggiorna',
       remove_filter: 'Rimuovi questo filtro',
-      remove: 'Remove',
+      remove: 'Rimuovi',
       save: 'Salva',
       search: 'Ricerca',
       show: 'Mostra',
