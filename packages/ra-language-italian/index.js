@@ -8,6 +8,7 @@ module.exports = {
       cancel: 'Annulla',
       clear_input_value: 'Svuota il modulo',
       clone: 'Duplica',
+      confirm: 'Conferma',
       create: 'Crea',
       delete: 'Cancella',
       edit: 'Modifica',
@@ -20,49 +21,61 @@ module.exports = {
       search: 'Ricerca',
       show: 'Mostra',
       sort: 'Ordina',
-      undo: 'Annulla'
+      undo: 'Annulla',
+      unselect: 'Annulla selezione',
+      expand: 'Espandi',
+      close: 'Chiudi',
+      open_menu: 'Apri il menu',
+      close_menu: 'Chiudi il menu',
     },
     boolean: {
       true: 'Si',
-      false: 'No'
+      false: 'No',
+      null: ' ',
     },
     page: {
       create: 'Aggiungi %{name}',
       dashboard: 'Cruscotto',
       edit: '%{name} %{id}',
-      list: 'Lista %{name}',
+      error: 'Qualcosa non ha funzionato',
+      list: '%{name}',
       loading: 'Caricamento in corso',
-      delete: 'Elimina %{name} %{id}',
       not_found: 'Non trovato',
-      show: '%{name} %{id}'
+      show: '%{name} %{id}',
+      empty: 'Nessun %{name} ancora.',
+      invite: 'Vuoi aggiungerne uno?'
     },
     input: {
       file: {
         upload_several:
-                    'Trascina i files da caricare, oppure clicca per selezionare.',
+          'Trascina i files da caricare, oppure clicca per selezionare.',
         upload_single: 'Trascina il file da caricare, oppure clicca per selezionarlo.'
       },
       image: {
         upload_several:
-                    'Trascina le immagini da caricare, oppure clicca per selezionarle.',
+          'Trascina le immagini da caricare, oppure clicca per selezionarle.',
         upload_single:
-                    'Trascina l\'immagine da caricare, oppure clicca per selezionarla.'
+          'Trascina l\'immagine da caricare, oppure clicca per selezionarla.'
       },
       references: {
         all_missing: 'Impossibile trovare i riferimenti associati.',
         many_missing:
-                    'Almeno uno dei riferimenti associati non sembra più disponibile.',
+          'Almeno uno dei riferimenti associati non sembra più disponibile.',
         single_missing:
-                    'Il riferimento associato non sembra più disponibile.'
+          'Il riferimento associato non sembra più disponibile.'
       }
+    },
+    password: {
+      toggle_visible: 'Nascondi la password',
+      toggle_hidden: 'Mostra la password',
     },
     message: {
       about: 'Informazioni',
       are_you_sure: 'Sei sicuro ?',
       bulk_delete_content:
-                'Sei sicuro di voler cancellare questo %{name}? |||| Sei sicuro di voler eliminare questi %{smart_count}?',
+        'Sei sicuro di voler cancellare questo %{name}? |||| Sei sicuro di voler eliminare questi %{smart_count}?',
       bulk_delete_title:
-                'Delete %{name} |||| Delete %{smart_count} %{name} items',
+        'Delete %{name} |||| Delete %{smart_count} %{name} items',
       delete_content: 'Are you sure you want to delete this item?',
       delete_title: 'Cancella %{name} #%{id}',
       details: 'Dettagli',
@@ -72,23 +85,32 @@ module.exports = {
       loading: 'La pagina si sta caricando, solo un momento per favore',
       no: 'No',
       not_found:
-                'Hai inserito un URL errato, oppure hai cliccato un link errato',
-      yes: 'Si'
+        'Hai inserito un URL errato, oppure hai cliccato un link errato',
+      yes: 'Si',
+      unsaved_changes:
+        "Alcune modifiche non sono state salvate. Sei sicuro di volerle ignorare?",
     },
     navigation: {
       no_results: 'Nessun risultato trovato',
       no_more_results:
-                'La pagina numero %{page} è fuori dell\'intervallo. Prova la pagina precedente.',
+        'La pagina numero %{page} è fuori dell\'intervallo. Prova la pagina precedente.',
       page_out_of_boundaries: 'Il numero di pagina %{page} è fuori dei limiti',
       page_out_from_end: 'Fine della paginazione',
       page_out_from_begin: 'Il numero di pagina deve essere maggiore di 1',
       page_range_info: '%{offsetBegin}-%{offsetEnd} di %{total}',
       page_rows_per_page: 'Righe per pagina',
       next: 'Successivo',
-      prev: 'Precedente'
+      prev: 'Precedente',
+      skip_nav: 'Vai al contenuto',
+    },
+    sort: {
+      sort_by: 'Ordina per %{field} %{order}',
+      ASC: 'cresente',
+      DESC: 'decrescente',
     },
     auth: {
-      user_menu: 'Profile',
+      auth_check_error: 'È necessario accedere per continuare',
+      user_menu: 'Profilo',
       username: 'Nome utente',
       password: 'Password',
       sign_in: 'Login',
@@ -104,7 +126,10 @@ module.exports = {
       http_error: 'Errore di comunicazione con il server dati',
       data_provider_error:
         'Errore del data provider. Controlla la console per i dettagli.',
-      canceled: 'Azione annullata'
+      i18n_error:
+        'Traduzioni non trovate per il linguaggio specificato',
+      canceled: 'Azione annullata',
+      logged_out: 'La sessione è stata terminata, si prega di ripetere l\'autenticazione.',
     },
     validation: {
       required: 'Campo obbligatorio',
@@ -116,6 +141,6 @@ module.exports = {
       email: 'Deve essere un valido indirizzo email',
       oneOf: 'Deve essere uno di: %{options}',
       regex: 'Deve rispettare il formato (espressione regolare): %{pattern}'
-    }
-  }
+    },
+  },
 }
