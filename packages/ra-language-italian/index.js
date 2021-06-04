@@ -73,14 +73,14 @@ module.exports = {
       about: 'Informazioni',
       are_you_sure: 'Sei sicuro ?',
       bulk_delete_content:
-        'Sei sicuro di voler cancellare questo %{name}? |||| Sei sicuro di voler eliminare questi %{smart_count}?',
+        'Sei sicuro di voler cancellare l\'elemento %{name} selezionato? |||| Sei sicuro di voler eliminare i %{smart_count} %{name} selezionati ?',
       bulk_delete_title:
-        'Cancella %{name} |||| Cancella %{smart_count} %{name} elementi',
+        'Cancella %{name} |||| Cancella %{smart_count} %{name}',
       delete_content: 'Sei sicuro di voler cancellare questo elemento?',
       delete_title: 'Cancella %{name} #%{id}',
       details: 'Dettagli',
       error:
-        'Un errore locale è occorso e la tua richiesta non è stata completata.',
+        'C\'è stato un errore e la richiesta non è stata completata.',
       invalid_form: 'Il modulo non è valido. Si prega di verificare la presenza di errori.',
       loading: 'La pagina si sta caricando, solo un momento per favore',
       no: 'No',
