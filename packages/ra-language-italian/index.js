@@ -75,8 +75,8 @@ module.exports = {
       bulk_delete_content:
         'Sei sicuro di voler cancellare questo %{name}? |||| Sei sicuro di voler eliminare questi %{smart_count}?',
       bulk_delete_title:
-        'Delete %{name} |||| Delete %{smart_count} %{name} items',
-      delete_content: 'Are you sure you want to delete this item?',
+        'Cancella %{name} |||| Cancella %{smart_count} %{name} elementi',
+      delete_content: 'Sei sicuro di voler cancellare questo elemento?',
       delete_title: 'Cancella %{name} #%{id}',
       details: 'Dettagli',
       error:
